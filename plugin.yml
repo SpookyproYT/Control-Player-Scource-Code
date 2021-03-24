@@ -1,0 +1,30 @@
+main: me.SpookyproYT.controlPlayer.Main
+name: ControlPlayer
+version: 1.7
+description: This plugin allows you to control a player!
+api-version: 1.16
+commands:
+ heal:
+  description: Heal yourself to 20 HP (10 Hearts)!
+ feed:
+  description: Feed your self and made no hungry!
+ sudo:
+  description: /Sudo Can CONTROL Other Players!
+ openinv:
+  description: opens player inventory.
+ cphelp:
+  description: this is the controlPlayer help command.
+  
+permissions:
+ heelfeed.commands:
+  description: This is the permission to the /heal and the /feed commands.
+  default: false
+ sudo.command:
+  description: This is the permission to the /sudo command.
+  default: op
+ openinv.command:
+  description: This is the permission to the /openinv command.
+  default: op
+ help.command:
+  description: This is the permission to the /cphelp command.
+  default: true
